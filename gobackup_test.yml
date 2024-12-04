@@ -48,6 +48,12 @@ models:
         tenant_id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
         client_id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
         client_secret: xxxxxxxx
+      azurekey:
+        type: azurekey
+        container: gobackup
+        path: backups
+        account: my-storage-account
+        accountkey: xxxxxxxx
     databases:
       dummy_test:
         type: mysql

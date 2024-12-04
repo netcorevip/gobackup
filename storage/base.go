@@ -128,6 +128,8 @@ func new(model config.ModelConfig, archivePath string, storageConfig config.SubC
 		s = &S3{Base: base, Service: "upyun"}
 	case "azure":
 		s = &Azure{Base: base}
+	case "azurekey":
+		s = &AzureKey{Base: base}
 	default:
 		logger.Errorf("[%s] storage type has not implement.", storageConfig.Type)
 	}
