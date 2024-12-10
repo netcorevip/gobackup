@@ -23,6 +23,7 @@ import (
 // container: gobackup
 // path: backups
 // # Authorization https://learn.microsoft.com/en-us/azure/developer/go/azure-sdk-authentication
+// https://learn.microsoft.com/zh-cn/azure/storage/blobs/storage-blob-go-get-started?tabs=account-key
 // accountkey: xxxxxxxx
 // timeout: 300
 type AzureKey struct {
